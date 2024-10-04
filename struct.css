@@ -1,0 +1,27 @@
+.wall {
+  margin-bottom: 200px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: olivedrab;
+  margin: 5px 100px;
+}
+
+.box:nth-of-type(2) {
+  background-color: blueviolet;
+}
+.box:nth-of-type(3) {
+  background-color: orangered;
+}
+
+.sp1 {
+  position: fixed;
+  top: 0;
+}
+
+.sp2 {
+  position: fixed;
+  /* top: 0; */
+}
